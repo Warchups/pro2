@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="imagen">
+        <item>Spotify</item>
+        <item>Logo App</item>
+        <item>Spotyfy Cartoon</item>
+        <item>Basic</item>
+    </string-array>
+    <string-array name="codigoimagen">
+        <item>spoty</item>
+        <item>logoApp</item>
+        <item>spotyC</item>
+        <item>basic</item>
+    </string-array>
+</resources>

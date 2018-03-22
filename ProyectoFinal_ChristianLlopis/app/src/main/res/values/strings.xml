@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MusicTeca</string>
+
+    <string name="rock">Rock</string>
+    <string name="rap">Rap</string>
+    <string name="pop">Pop</string>
+    <string name="otros">Otros</string>
+
+    <string name="verBorrar">¿Quiere ver el video o borrarlo?</string>
+    <string name="ver">Ver</string>
+    <string name="borrar">Borrar</string>
+
+    <string name="sinCanciones">No hay canciones registradas de este tipo.</string>
+
+    <string name="selectGenero">Selecciona el genero</string>
+    <string name="indicaGenero">Indica el genero</string>
+    <string name="indicaNombre">Indica el genero</string>
+    <string name="indicaArtista">Indica el/la artista</string>
+    <string name="indicaUrl">Indica la url</string>
+    <string name="noUrl">Lo que ha introducido no es una url</string>
+
+    <string name="nombre">Nombre: </string>
+    <string name="artista">Artista: </string>
+    <string name="genero">Genero: </string>
+
+    <string name="anadir">¿Desea añadir la siguiente canción?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+
+    <string name="nombreXml">Nombre</string>
+    <string name="artistaXml">Artista</string>
+    <string name="generoXml">Genero</string>
+    <string name="pegarUrl">Pega aquí la URL</string>
+    <string name="nick">Nick</string>
+    <string name="contrasena">Contraseña</string>
+
+    <string name="tituloMaps">Lugar de Procedencia de mis grupos favoritos</string>
+    <string name="extremoduro">Extremoduro</string>
+    <string name="marea">Marea</string>
+    <string name="rulo">Rulo y la Contrabanda</string>
+    <string name="sharif">Sharif</string>
+    <string name="locoplaya">Locoplaya</string>
+    <string name="rayden">Rayden</string>
+    <string name="title_activity_mapa">Map</string>
+    <string name="busqueda">Busqueda</string>
+    <string name="introduceBusqueda">Introduce una busqueda</string>
+    <string name="salir">Salir</string>
+</resources>

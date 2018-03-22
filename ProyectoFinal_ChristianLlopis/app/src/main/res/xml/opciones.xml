@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Bienvenida">
+
+        <EditTextPreference
+            android:key="saludo"
+            android:title="Saludo"
+            android:summary="¿Como quieres que te salude la aplicación?"
+            android:dialogTitle="Indica el saludo"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Idiomas">
+
+        <ListPreference
+            android:key="idioma"
+            android:title="Idioma"
+            android:summary="Idioma de la aplicación"
+            android:dialogTitle="Indicar el idioma de la aplicación"
+            android:entries="@array/idioma"
+            android:entryValues="@array/codigoidioma" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Apariencia">
+
+        <ListPreference
+            android:key="logo"
+            android:title="Imagen del login"
+            android:summary="Imagen del login"
+            android:dialogTitle="Indica una imagen"
+            android:entries="@array/imagen"
+            android:entryValues="@array/codigoimagen"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Otros">
+
+        <CheckBoxPreference
+            android:title="Usar valores por defecto"
+            android:key="valoresDefecto"
+            android:summary="Usar los valores por defecto" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

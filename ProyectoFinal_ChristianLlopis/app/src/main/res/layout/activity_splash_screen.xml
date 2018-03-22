@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondosplash"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="top|center"
+    android:paddingTop="100dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imagenSplash"
+        android:layout_width="234dp"
+        android:layout_height="193dp"
+        android:layout_weight="0.12"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo2" />
+
+</LinearLayout>
